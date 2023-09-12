@@ -96,3 +96,9 @@ button{
 button:hover span{
     width: 100%;
 }
+
+@media screen and (max-width:500px) {
+    .content{
+        padding-top: 30%;
+    }
+}
