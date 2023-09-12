@@ -34,13 +34,60 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #25509D;
-    text-transform: uppercase;
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 10px;
-    font-weight: bold;
+    color: white;
+    /* text-transform: uppercase; */
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 15px;
+    /* font-weight: bold; */
     outline: solid white;
+    border-radius: 25px;
 }
 .navbar ul li a:hover{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    /* color: #25509D; */
+    color: white;
+}
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 25px;
+    border:2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    
+}
+ span{
+    background: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+} 
+button:hover span{
+    width: 100%;
 }
