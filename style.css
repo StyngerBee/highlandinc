@@ -19,6 +19,8 @@
     align-items: center;
     justify-content: space-between; 
     height: 10%;
+    overflow:hidden;
+    position: fixed;
 }
 .logo{
     padding-left: 35px;
@@ -90,4 +92,8 @@ button{
 } 
 button:hover span{
     width: 100%;
+}
+
+.about{
+
 }
