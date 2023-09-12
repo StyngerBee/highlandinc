@@ -12,10 +12,35 @@
     background-position: center;
 }
 .navbar{
-    width: 85%;
+    width: 100%;
     margin:auto;
     padding: 35px 0;
     display: flex; 
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
+    height: 10%;
+}
+.logo{
+    padding-left: 35px;
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px ;
+    
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #25509D;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    font-weight: bold;
+    outline: solid white;
+}
+.navbar ul li a:hover{
+    background-color: white;
 }
