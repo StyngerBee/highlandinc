@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     font-family: sans-serif;
 
     --blue: #25509D;
@@ -117,6 +118,7 @@ button:hover span{
     align-items: center;
     flex-direction: column;
     margin-top: 110px;
+    margin-bottom: -20px;
   }
   
   .social-icon,
