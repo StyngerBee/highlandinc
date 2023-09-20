@@ -107,6 +107,24 @@ button:hover span{
  padding-bottom: 15px;
 }
 
+.about{
+  color: white;
+  background-color: var(--light-blue);
+}
+.card{
+  margin: 15px;
+  border-radius: 25px;
+}
+.card-header{
+  background-color: var(--blue);
+  color: white;
+  font-size: x-large;
+}
+
+.card-body{
+  color: var(--blue);
+}
+
 .footer {
     position: relative;
     width: 100%;
@@ -206,6 +224,9 @@ button:hover span{
     bottom: 20px;
     animation: animate 3s linear infinite;
   }
+  
+
+ 
   
   @keyframes animateWaves {
     0% {
