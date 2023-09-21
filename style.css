@@ -104,7 +104,10 @@ button:hover span{
 }
 
 .contact{
- padding-bottom: 15px;
+ padding: 30px 0;
+ background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(banner3.JPG);
+    background-size: cover;
+    background-position: center;
 }
 
 .about{
