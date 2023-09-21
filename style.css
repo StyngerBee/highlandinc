@@ -262,8 +262,11 @@ button:hover span{
 
 
 @media screen and (max-width:500px) {
-    .content{
+    .navbar{
+      display: none;
+    }
+    /* .content{
         padding-top: 30%;
     }
-}
+} */
 
