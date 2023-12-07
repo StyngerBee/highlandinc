@@ -118,6 +118,7 @@ button:hover span{
 }
 .about h1{
   font-size: 50px;
+  color: var(--blue);
 }
 .card{
   margin: 15px;
