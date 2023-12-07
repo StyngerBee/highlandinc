@@ -151,10 +151,11 @@ button:hover span{
 
 .card-body{
   color: var(--blue);
+  text-align: left;
 }
 .card-body li{
   text-align: left;
-  padding-left: 45%;
+  padding-left: 5%;
 }
 
 .footer {
