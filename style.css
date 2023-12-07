@@ -258,6 +258,18 @@ button:hover span{
     animation: animate 3s linear infinite;
   }
   
+  #c3{
+    width:93%
+  }
+
+  #c3 .card-body{
+    text-align: center;
+  }
+  #c3 .card-body li{
+    text-align: left;
+    padding-left: 35%;
+  }
+ 
 
  
   
